@@ -1,0 +1,712 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\controllers\\configurationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\data\\flexplannerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\data\\flexplannerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\configurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\configurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\vacationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\vacationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\controllers\\planningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\controllers\\planningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\planningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\planningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\vacationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\vacationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\controllers\\vacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\controllers\\vacationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\planningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\planningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\iconfigurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\iconfigurationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\ivacationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\ivacationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\iplanningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\iplanningrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\ivacationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\ivacationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\iplanningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\iplanningservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\teammemberpresencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\teammemberpresencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\optiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\createvacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\createvacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\vacationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\vacationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\weeklyscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\weeklyscheduledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\updateplanningrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\updateplanningrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\planningdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\planningdaydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\updateuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\models\\presencestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\models\\presencestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|c:\\users\\jerem\\source\\repos\\flexplanner.api\\flexplanner.api\\models\\frenchholiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F3E381-5222-40D2-8A1E-58A184E47F22}|FlexPlanner.Api\\FlexPlanner.Api.csproj|solutionrelative:flexplanner.api\\models\\frenchholiday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 2113,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlanningController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\PlanningController.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Controllers\\PlanningController.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\PlanningController.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Controllers\\PlanningController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:49:05.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlanningService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\PlanningService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\PlanningService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\PlanningService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\PlanningService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:58:12.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\AuthService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvwwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:55:59.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VacationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\VacationRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\VacationRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\VacationRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\VacationRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:06:20.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FlexPlannerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Data\\FlexPlannerDbContext.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Data\\FlexPlannerDbContext.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Data\\FlexPlannerDbContext.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Data\\FlexPlannerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:40:20.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigurationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\ConfigurationRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\ConfigurationRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\ConfigurationRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\ConfigurationRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:08:22.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VacationService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\VacationService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\VacationService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\VacationService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\VacationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:59:07.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Program.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Program.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T18:00:08.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigurationController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\ConfigurationController.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Controllers\\ConfigurationController.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\ConfigurationController.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Controllers\\ConfigurationController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:51:30.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:48:31.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\UserService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:57:04.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:42:02.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VacationsController.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\VacationsController.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Controllers\\VacationsController.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Controllers\\VacationsController.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Controllers\\VacationsController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:50:15.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlanningRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\PlanningRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\PlanningRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\PlanningRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\PlanningRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAgwCAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:04:52.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:03:02.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IConfigurationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IConfigurationRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\IConfigurationRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IConfigurationRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\IConfigurationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:01:43.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IVacationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IVacationRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\IVacationRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IVacationRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\IVacationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:01:10.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPlanningRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IPlanningRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\IPlanningRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IPlanningRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\IPlanningRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:00:38.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T20:00:15.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IVacationService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IVacationService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\IVacationService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IVacationService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\IVacationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:54:49.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPlanningService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IPlanningService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\IPlanningService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IPlanningService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\IPlanningService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:54:19.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IUserService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:53:50.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Services\\IAuthService.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:52:49.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TeamMemberPresenceDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\TeamMemberPresenceDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\TeamMemberPresenceDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\TeamMemberPresenceDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\TeamMemberPresenceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:39:06.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OptionDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\OptionDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\OptionDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\OptionDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\OptionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:38:43.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreateVacationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\CreateVacationRequest.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\CreateVacationRequest.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\CreateVacationRequest.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\CreateVacationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:34:45.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "VacationDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\VacationDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\VacationDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\VacationDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\VacationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:34:12.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "WeeklyScheduleDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\WeeklyScheduleDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\WeeklyScheduleDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\WeeklyScheduleDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\WeeklyScheduleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:33:46.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdatePlanningRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\UpdatePlanningRequest.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\UpdatePlanningRequest.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\UpdatePlanningRequest.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\UpdatePlanningRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:33:23.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PlanningDayDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\PlanningDayDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\PlanningDayDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\PlanningDayDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\PlanningDayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:32:48.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TeamDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\TeamDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\TeamDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\TeamDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\TeamDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:32:25.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\UpdateUserRequest.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\UpdateUserRequest.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\UpdateUserRequest.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\UpdateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:31:58.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:31:35.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:31:08.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:30:36.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:28:00.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\appsettings.Development.json",
+              "RelativeToolTip": "FlexPlanner.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T19:21:46.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\appsettings.json",
+              "RelativeToolTip": "FlexPlanner.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T19:17:53.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PresenceStatus.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Models\\PresenceStatus.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Models\\PresenceStatus.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Models\\PresenceStatus.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Models\\PresenceStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:08:30.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FrenchHoliday.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Models\\FrenchHoliday.cs",
+              "RelativeDocumentMoniker": "FlexPlanner.Api\\Models\\FrenchHoliday.cs",
+              "ToolTip": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\Models\\FrenchHoliday.cs",
+              "RelativeToolTip": "FlexPlanner.Api\\Models\\FrenchHoliday.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T19:08:25.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

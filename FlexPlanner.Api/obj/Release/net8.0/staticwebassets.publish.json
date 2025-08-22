@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "9D9/gXmZJdV8iyNZphvKJ33hMoXNIPsgQGsaQWrCbRg=",
+  "Source": "FlexPlanner.Api",
+  "BasePath": "_content/FlexPlanner.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
