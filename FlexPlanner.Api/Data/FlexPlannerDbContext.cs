@@ -1,5 +1,6 @@
 ﻿using FlexPlanner.Api.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace FlexPlanner.Api.Data
 {
@@ -158,6 +159,31 @@ namespace FlexPlanner.Api.Data
                 entity.HasOne(e => e.VacationType).WithMany(v => v.UserVacations).HasForeignKey(e => e.VacationTypeId);
                 entity.HasOne(e => e.ApprovedByUser).WithMany().HasForeignKey(e => e.ApprovedBy);
             });
+
+            foreach (var entityType in modelBuilder.Model.GetEntityTypes())
+            {
+                foreach (var property in entityType.GetProperties())
+                {
+                    if (property.ClrType == typeof(DateTime))
+                    {
+                        property.SetValueConverter(new ValueConverter<DateTime, DateTime>(
+                            v => v.Kind == DateTimeKind.Unspecified ? DateTime.SpecifyKind(v, DateTimeKind.Utc) : v.ToUniversalTime(),
+                            v => DateTime.SpecifyKind(v, DateTimeKind.Utc)));
+                    }
+                    else if (property.ClrType == typeof(DateTime?))
+                    {
+                        property.SetValueConverter(new ValueConverter<DateTime?, DateTime?>(
+                            v => v.HasValue
+                                ? (v.Value.Kind == DateTimeKind.Unspecified
+                                    ? DateTime.SpecifyKind(v.Value, DateTimeKind.Utc)
+                                    : v.Value.ToUniversalTime())
+                                : v,
+                            v => v.HasValue
+                                ? DateTime.SpecifyKind(v.Value, DateTimeKind.Utc)
+                                : v));
+                    }
+                }
+            }
         }
     }
 }

@@ -145,3 +145,4 @@ C:\Users\jerem\source\repos\FlexPlanner.Api\FlexPlanner.Api\obj\Release\net8.0\r
 C:\Users\jerem\source\repos\FlexPlanner.Api\FlexPlanner.Api\obj\Release\net8.0\FlexPlanner.Api.pdb
 C:\Users\jerem\source\repos\FlexPlanner.Api\FlexPlanner.Api\obj\Release\net8.0\FlexPlanner.Api.genruntimeconfig.cache
 C:\Users\jerem\source\repos\FlexPlanner.Api\FlexPlanner.Api\obj\Release\net8.0\ref\FlexPlanner.Api.dll
+C:\Users\jerem\source\repos\FlexPlanner.Api\FlexPlanner.Api\obj\Release\net8.0\FlexPlanner.Api.sourcelink.json

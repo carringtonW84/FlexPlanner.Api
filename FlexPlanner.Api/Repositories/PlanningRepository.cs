@@ -18,11 +18,11 @@ namespace FlexPlanner.Api.Repositories
         public async Task<(string Code, string Name, string? Emoji, string? ColorClass, string? Notes)> GetDayStatusAsync(Guid userId, DateTime date)
         {
             // Use the PostgreSQL function get_user_day_status
-            var sql = "SELECT * FROM get_user_day_status(@userId, @date)";
+            var sql = "SELECT * FROM flexplanner.get_user_day_status(@userId, @date)";
             var parameters = new[]
             {
                 new NpgsqlParameter("@userId", userId),
-                new NpgsqlParameter("@date", date.Date)
+                new NpgsqlParameter("@date", NpgsqlTypes.NpgsqlDbType.Date) { Value = date.Date }
             };
 
             using var command = _context.Database.GetDbConnection().CreateCommand();
