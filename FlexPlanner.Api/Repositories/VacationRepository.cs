@@ -38,7 +38,6 @@ namespace FlexPlanner.Api.Repositories
                 VacationTypeId = vacationType.Id,
                 StartDate = request.StartDate.Date,
                 EndDate = request.EndDate.Date,
-                Status = "pending",
                 Notes = request.Notes
             };
 

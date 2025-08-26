@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlexPlanner.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2eaed2e1c14708424d1947ebfd28d19af788a81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70ac392d8f1492770caaf42ea10f539d7078a792")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlexPlanner.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlexPlanner.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -147,17 +147,12 @@ namespace FlexPlanner.Api.Data
                 entity.Property(e => e.VacationTypeId).HasColumnName("vacation_type_id");
                 entity.Property(e => e.StartDate).HasColumnName("start_date").HasColumnType("date");
                 entity.Property(e => e.EndDate).HasColumnName("end_date").HasColumnType("date");
-                entity.Property(e => e.Status).HasColumnName("status").HasMaxLength(20);
                 entity.Property(e => e.Notes).HasColumnName("notes");
-                entity.Property(e => e.RequestedAt).HasColumnName("requested_at");
-                entity.Property(e => e.ApprovedAt).HasColumnName("approved_at");
-                entity.Property(e => e.ApprovedBy).HasColumnName("approved_by");
                 entity.Property(e => e.CreatedAt).HasColumnName("created_at");
                 entity.Property(e => e.UpdatedAt).HasColumnName("updated_at");
 
                 entity.HasOne(e => e.User).WithMany(u => u.Vacations).HasForeignKey(e => e.UserId);
                 entity.HasOne(e => e.VacationType).WithMany(v => v.UserVacations).HasForeignKey(e => e.VacationTypeId);
-                entity.HasOne(e => e.ApprovedByUser).WithMany().HasForeignKey(e => e.ApprovedBy);
             });
 
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())

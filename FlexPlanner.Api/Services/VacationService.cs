@@ -22,7 +22,6 @@ namespace FlexPlanner.Api.Services
                 Type = v.VacationType.Name,
                 StartDate = v.StartDate,
                 EndDate = v.EndDate,
-                Status = v.Status,
                 Notes = v.Notes
             }).ToList();
         }
@@ -37,7 +36,6 @@ namespace FlexPlanner.Api.Services
                 Type = vacation.VacationType.Name,
                 StartDate = vacation.StartDate,
                 EndDate = vacation.EndDate,
-                Status = vacation.Status,
                 Notes = vacation.Notes
             };
         }

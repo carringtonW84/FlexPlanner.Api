@@ -107,8 +107,7 @@ namespace FlexPlanner.Api.Services
             // Check vacations
             var vacation = user.Vacations.FirstOrDefault(v =>
                 date.Date >= v.StartDate.Date &&
-                date.Date <= v.EndDate.Date &&
-                v.Status == "approved");
+                date.Date <= v.EndDate.Date);
 
             if (vacation != null)
             {
