@@ -1,5 +1,6 @@
 ﻿using FlexPlanner.Api.DTOs;
 using FlexPlanner.Api.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
 
@@ -20,6 +21,15 @@ namespace FlexPlanner.Api.Controllers
         public async Task<ActionResult<List<OptionDto>>> GetTeams()
         {
             var teams = await _configRepository.GetTeamsAsync();
+            return Ok(teams);
+        }
+
+        [HttpGet("teams/checkboxes")]
+        [Authorize]
+        public async Task<ActionResult<List<TeamCheckboxDto>>> GetTeamsWithCheckboxes()
+        {
+            var userId = GetCurrentUserId();
+            var teams = await _configRepository.GetTeamsWithUserCheckboxesAsync(userId);
             return Ok(teams);
         }
 
@@ -58,6 +68,12 @@ namespace FlexPlanner.Api.Controllers
                 });
             }
             return Ok(years);
+        }
+
+        private Guid GetCurrentUserId()
+        {
+            var userIdClaim = User.FindFirst("userId")?.Value;
+            return Guid.Parse(userIdClaim ?? throw new UnauthorizedAccessException());
         }
     }
 }

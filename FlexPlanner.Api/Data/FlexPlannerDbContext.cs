@@ -17,6 +17,7 @@ namespace FlexPlanner.Api.Data
         public DbSet<UserWeeklySchedule> UserWeeklySchedules { get; set; }
         public DbSet<UserPlanning> UserPlanningEntries { get; set; }
         public DbSet<UserVacation> UserVacations { get; set; }
+        public DbSet<UserTeam> UserTeams { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -39,7 +40,15 @@ namespace FlexPlanner.Api.Data
                 entity.Property(e => e.UpdatedAt).HasColumnName("updated_at");
                 entity.Property(e => e.LastLogin).HasColumnName("last_login");
 
-                entity.HasOne(e => e.Team).WithMany(t => t.Users).HasForeignKey(e => e.TeamId);
+                // Relation 1-N existante (pour compatibilité)
+                entity.HasOne(e => e.Team)
+                      .WithMany(t => t.Users)
+                      .HasForeignKey(e => e.TeamId);
+
+                // Configuration de la relation Many-to-Many
+                entity.HasMany(e => e.Teams)
+                      .WithMany(e => e.UsersMultiple)
+                      .UsingEntity<UserTeam>();
             });
 
             modelBuilder.Entity<Team>(entity =>
@@ -153,6 +162,27 @@ namespace FlexPlanner.Api.Data
 
                 entity.HasOne(e => e.User).WithMany(u => u.Vacations).HasForeignKey(e => e.UserId);
                 entity.HasOne(e => e.VacationType).WithMany(v => v.UserVacations).HasForeignKey(e => e.VacationTypeId);
+            });
+
+            modelBuilder.Entity<UserTeam>(entity =>
+            {
+                entity.ToTable("user_teams", schema: "flexplanner");
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).HasColumnName("id");
+                entity.Property(e => e.UserId).HasColumnName("user_id");
+                entity.Property(e => e.TeamId).HasColumnName("team_id");
+                entity.Property(e => e.CreatedAt).HasColumnName("created_at");
+                entity.Property(e => e.UpdatedAt).HasColumnName("updated_at");
+
+                entity.HasOne(e => e.User)
+                      .WithMany(u => u.UserTeams)
+                      .HasForeignKey(e => e.UserId);
+
+                entity.HasOne(e => e.Team)
+                      .WithMany(t => t.UserTeams)
+                      .HasForeignKey(e => e.TeamId);
+
+                entity.HasIndex(e => new { e.UserId, e.TeamId }).IsUnique();
             });
 
             foreach (var entityType in modelBuilder.Model.GetEntityTypes())

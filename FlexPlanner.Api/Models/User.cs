@@ -13,7 +13,7 @@ namespace FlexPlanner.Api.Models
         public string PasswordHash { get; set; } = string.Empty;
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
-        public Guid? TeamId { get; set; }
+        public Guid? TeamId { get; set; } // Gardé pour compatibilité temporaire
         public int Velocity { get; set; } = 0;
         public bool IsActive { get; set; } = true;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
@@ -21,7 +21,13 @@ namespace FlexPlanner.Api.Models
         public DateTime? LastLogin { get; set; }
 
         // Navigation properties
-        public Team? Team { get; set; }
+        public Team? Team { get; set; } // Ancienne relation 1-N (gardée pour compatibilité)
+
+        // Nouvelles relations N-N
+        public List<Team> Teams { get; set; } = new(); // Collection des équipes
+        public List<UserTeam> UserTeams { get; set; } = new(); // Table de liaison
+
+        // Relations existantes
         public List<UserWeeklySchedule> WeeklySchedules { get; set; } = new();
         public List<UserPlanning> PlanningEntries { get; set; } = new();
         public List<UserVacation> Vacations { get; set; } = new();

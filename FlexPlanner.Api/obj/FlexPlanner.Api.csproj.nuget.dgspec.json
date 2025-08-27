@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj": {}
+    "C:\\Users\\JCOURBET\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj": {
+    "C:\\Users\\JCOURBET\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj",
+        "projectUniqueName": "C:\\Users\\JCOURBET\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj",
         "projectName": "FlexPlanner.Api",
-        "projectPath": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj",
-        "packagesPath": "C:\\Users\\jerem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jerem\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\obj\\",
+        "projectPath": "C:\\Users\\JCOURBET\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\FlexPlanner.Api.csproj",
+        "packagesPath": "C:\\Users\\JCOURBET\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JCOURBET\\source\\repos\\FlexPlanner.Api\\FlexPlanner.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jerem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JCOURBET\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,8 +27,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -46,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -102,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

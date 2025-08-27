@@ -67,6 +67,26 @@
   },
   {
     "ContainingType": "FlexPlanner.Api.Controllers.ConfigurationController",
+    "Method": "GetTeamsWithCheckboxes",
+    "RelativePath": "api/Configuration/teams/checkboxes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FlexPlanner.Api.DTOs.TeamCheckboxDto, FlexPlanner.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlexPlanner.Api.Controllers.ConfigurationController",
     "Method": "GetVacationTypes",
     "RelativePath": "api/Configuration/vacation-types",
     "HttpMethod": "GET",

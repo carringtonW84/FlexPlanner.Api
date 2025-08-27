@@ -91,6 +91,44 @@
         }
       }
     },
+    "/api/Configuration/teams/checkboxes": {
+      "get": {
+        "tags": [
+          "Configuration"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TeamCheckboxDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TeamCheckboxDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TeamCheckboxDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Configuration/vacation-types": {
       "get": {
         "tags": [
@@ -680,6 +718,23 @@
         },
         "additionalProperties": false
       },
+      "TeamCheckboxDto": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "nullable": true
+          },
+          "label": {
+            "type": "string",
+            "nullable": true
+          },
+          "checked": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "TeamDto": {
         "type": "object",
         "properties": {
@@ -758,6 +813,14 @@
             "format": "uuid",
             "nullable": true
           },
+          "teamIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "nullable": true
+          },
           "velocity": {
             "type": "integer",
             "format": "int32",
@@ -791,6 +854,13 @@
           },
           "team": {
             "$ref": "#/components/schemas/TeamDto"
+          },
+          "teams": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TeamDto"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

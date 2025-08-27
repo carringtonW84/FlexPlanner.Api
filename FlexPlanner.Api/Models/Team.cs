@@ -16,6 +16,11 @@ namespace FlexPlanner.Api.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
-        public List<User> Users { get; set; } = new();
+        // Navigation properties
+        public List<User> Users { get; set; } = new(); // Ancienne relation 1-N (gardée pour compatibilité)
+
+        // Nouvelles relations N-N
+        public List<User> UsersMultiple { get; set; } = new(); // Collection des utilisateurs via N-N
+        public List<UserTeam> UserTeams { get; set; } = new(); // Table de liaison
     }
 }
