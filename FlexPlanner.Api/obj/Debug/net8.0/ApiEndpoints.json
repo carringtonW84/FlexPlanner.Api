@@ -209,6 +209,68 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FlexPlanner.Api.Controllers.TeamReportsController",
+    "Method": "GetTeamPlanning",
+    "RelativePath": "api/TeamReports/{teamId}/planning",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FlexPlanner.Api.DTOs.TeamPlanningReportDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FlexPlanner.Api.Controllers.TeamReportsController",
+    "Method": "ExportTeamPlanningToExcel",
+    "RelativePath": "api/TeamReports/{teamId}/planning/export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teamId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FlexPlanner.Api.Controllers.UsersController",
     "Method": "GetCurrentUser",
     "RelativePath": "api/Users/me",
